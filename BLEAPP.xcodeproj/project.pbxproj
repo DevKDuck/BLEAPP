@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C8BD4A32B3C36F800D913CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8BD4A22B3C36F800D913CF /* AppDelegate.swift */; };
+		8C8BD4A52B3C36F800D913CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8BD4A42B3C36F800D913CF /* SceneDelegate.swift */; };
+		8C8BD4A72B3C36F800D913CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8BD4A62B3C36F800D913CF /* ViewController.swift */; };
+		8C8BD4AA2B3C36F800D913CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C8BD4A82B3C36F800D913CF /* Main.storyboard */; };
+		8C8BD4AD2B3C36F800D913CF /* BLEAPP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C8BD4AB2B3C36F800D913CF /* BLEAPP.xcdatamodeld */; };
+		8C8BD4AF2B3C36FD00D913CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C8BD4AE2B3C36FD00D913CF /* Assets.xcassets */; };
+		8C8BD4B22B3C36FD00D913CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C8BD4B02B3C36FD00D913CF /* LaunchScreen.storyboard */; };
+		8C8BD4BD2B3C36FD00D913CF /* BLEAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8BD4BC2B3C36FD00D913CF /* BLEAPPTests.swift */; };
+		8C8BD4C72B3C36FD00D913CF /* BLEAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8BD4C62B3C36FD00D913CF /* BLEAPPUITests.swift */; };
+		8C8BD4C92B3C36FD00D913CF /* BLEAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8BD4C82B3C36FD00D913CF /* BLEAPPUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C8BD4B92B3C36FD00D913CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C8BD4972B3C36F800D913CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C8BD49E2B3C36F800D913CF;
+			remoteInfo = BLEAPP;
+		};
+		8C8BD4C32B3C36FD00D913CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C8BD4972B3C36F800D913CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C8BD49E2B3C36F800D913CF;
+			remoteInfo = BLEAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C8BD49F2B3C36F800D913CF /* BLEAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8BD4A22B3C36F800D913CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C8BD4A42B3C36F800D913CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8C8BD4A62B3C36F800D913CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C8BD4A92B3C36F800D913CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C8BD4AC2B3C36F800D913CF /* BLEAPP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BLEAPP.xcdatamodel; sourceTree = "<group>"; };
+		8C8BD4AE2B3C36FD00D913CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C8BD4B12B3C36FD00D913CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C8BD4B32B3C36FD00D913CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C8BD4B82B3C36FD00D913CF /* BLEAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8BD4BC2B3C36FD00D913CF /* BLEAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEAPPTests.swift; sourceTree = "<group>"; };
+		8C8BD4C22B3C36FD00D913CF /* BLEAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8BD4C62B3C36FD00D913CF /* BLEAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEAPPUITests.swift; sourceTree = "<group>"; };
+		8C8BD4C82B3C36FD00D913CF /* BLEAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C8BD49C2B3C36F800D913CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8BD4B52B3C36FD00D913CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8BD4BF2B3C36FD00D913CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C8BD4962B3C36F800D913CF = {
+			isa = PBXGroup;
+			children = (
+				8C8BD4A12B3C36F800D913CF /* BLEAPP */,
+				8C8BD4BB2B3C36FD00D913CF /* BLEAPPTests */,
+				8C8BD4C52B3C36FD00D913CF /* BLEAPPUITests */,
+				8C8BD4A02B3C36F800D913CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C8BD4A02B3C36F800D913CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C8BD49F2B3C36F800D913CF /* BLEAPP.app */,
+				8C8BD4B82B3C36FD00D913CF /* BLEAPPTests.xctest */,
+				8C8BD4C22B3C36FD00D913CF /* BLEAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C8BD4A12B3C36F800D913CF /* BLEAPP */ = {
+			isa = PBXGroup;
+			children = (
+				8C8BD4A22B3C36F800D913CF /* AppDelegate.swift */,
+				8C8BD4A42B3C36F800D913CF /* SceneDelegate.swift */,
+				8C8BD4A62B3C36F800D913CF /* ViewController.swift */,
+				8C8BD4A82B3C36F800D913CF /* Main.storyboard */,
+				8C8BD4AE2B3C36FD00D913CF /* Assets.xcassets */,
+				8C8BD4B02B3C36FD00D913CF /* LaunchScreen.storyboard */,
+				8C8BD4B32B3C36FD00D913CF /* Info.plist */,
+				8C8BD4AB2B3C36F800D913CF /* BLEAPP.xcdatamodeld */,
+			);
+			path = BLEAPP;
+			sourceTree = "<group>";
+		};
+		8C8BD4BB2B3C36FD00D913CF /* BLEAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C8BD4BC2B3C36FD00D913CF /* BLEAPPTests.swift */,
+			);
+			path = BLEAPPTests;
+			sourceTree = "<group>";
+		};
+		8C8BD4C52B3C36FD00D913CF /* BLEAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C8BD4C62B3C36FD00D913CF /* BLEAPPUITests.swift */,
+				8C8BD4C82B3C36FD00D913CF /* BLEAPPUITestsLaunchTests.swift */,
+			);
+			path = BLEAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C8BD49E2B3C36F800D913CF /* BLEAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8BD4CC2B3C36FD00D913CF /* Build configuration list for PBXNativeTarget "BLEAPP" */;
+			buildPhases = (
+				8C8BD49B2B3C36F800D913CF /* Sources */,
+				8C8BD49C2B3C36F800D913CF /* Frameworks */,
+				8C8BD49D2B3C36F800D913CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLEAPP;
+			productName = BLEAPP;
+			productReference = 8C8BD49F2B3C36F800D913CF /* BLEAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C8BD4B72B3C36FD00D913CF /* BLEAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8BD4CF2B3C36FD00D913CF /* Build configuration list for PBXNativeTarget "BLEAPPTests" */;
+			buildPhases = (
+				8C8BD4B42B3C36FD00D913CF /* Sources */,
+				8C8BD4B52B3C36FD00D913CF /* Frameworks */,
+				8C8BD4B62B3C36FD00D913CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C8BD4BA2B3C36FD00D913CF /* PBXTargetDependency */,
+			);
+			name = BLEAPPTests;
+			productName = BLEAPPTests;
+			productReference = 8C8BD4B82B3C36FD00D913CF /* BLEAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C8BD4C12B3C36FD00D913CF /* BLEAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8BD4D22B3C36FD00D913CF /* Build configuration list for PBXNativeTarget "BLEAPPUITests" */;
+			buildPhases = (
+				8C8BD4BE2B3C36FD00D913CF /* Sources */,
+				8C8BD4BF2B3C36FD00D913CF /* Frameworks */,
+				8C8BD4C02B3C36FD00D913CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C8BD4C42B3C36FD00D913CF /* PBXTargetDependency */,
+			);
+			name = BLEAPPUITests;
+			productName = BLEAPPUITests;
+			productReference = 8C8BD4C22B3C36FD00D913CF /* BLEAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C8BD4972B3C36F800D913CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8C8BD49E2B3C36F800D913CF = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					8C8BD4B72B3C36FD00D913CF = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 8C8BD49E2B3C36F800D913CF;
+					};
+					8C8BD4C12B3C36FD00D913CF = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 8C8BD49E2B3C36F800D913CF;
+					};
+				};
+			};
+			buildConfigurationList = 8C8BD49A2B3C36F800D913CF /* Build configuration list for PBXProject "BLEAPP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C8BD4962B3C36F800D913CF;
+			productRefGroup = 8C8BD4A02B3C36F800D913CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C8BD49E2B3C36F800D913CF /* BLEAPP */,
+				8C8BD4B72B3C36FD00D913CF /* BLEAPPTests */,
+				8C8BD4C12B3C36FD00D913CF /* BLEAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C8BD49D2B3C36F800D913CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8BD4B22B3C36FD00D913CF /* LaunchScreen.storyboard in Resources */,
+				8C8BD4AF2B3C36FD00D913CF /* Assets.xcassets in Resources */,
+				8C8BD4AA2B3C36F800D913CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8BD4B62B3C36FD00D913CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8BD4C02B3C36FD00D913CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C8BD49B2B3C36F800D913CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8BD4A72B3C36F800D913CF /* ViewController.swift in Sources */,
+				8C8BD4A32B3C36F800D913CF /* AppDelegate.swift in Sources */,
+				8C8BD4A52B3C36F800D913CF /* SceneDelegate.swift in Sources */,
+				8C8BD4AD2B3C36F800D913CF /* BLEAPP.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8BD4B42B3C36FD00D913CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8BD4BD2B3C36FD00D913CF /* BLEAPPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8BD4BE2B3C36FD00D913CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8BD4C92B3C36FD00D913CF /* BLEAPPUITestsLaunchTests.swift in Sources */,
+				8C8BD4C72B3C36FD00D913CF /* BLEAPPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C8BD4BA2B3C36FD00D913CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C8BD49E2B3C36F800D913CF /* BLEAPP */;
+			targetProxy = 8C8BD4B92B3C36FD00D913CF /* PBXContainerItemProxy */;
+		};
+		8C8BD4C42B3C36FD00D913CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C8BD49E2B3C36F800D913CF /* BLEAPP */;
+			targetProxy = 8C8BD4C32B3C36FD00D913CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C8BD4A82B3C36F800D913CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C8BD4A92B3C36F800D913CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C8BD4B02B3C36FD00D913CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C8BD4B12B3C36FD00D913CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C8BD4CA2B3C36FD00D913CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C8BD4CB2B3C36FD00D913CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C8BD4CD2B3C36FD00D913CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2PAPBBTST;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BLEAPP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DevKDucK.BLEAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C8BD4CE2B3C36FD00D913CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2PAPBBTST;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BLEAPP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DevKDucK.BLEAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C8BD4D02B3C36FD00D913CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2PAPBBTST;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DevKDucK.BLEAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLEAPP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BLEAPP";
+			};
+			name = Debug;
+		};
+		8C8BD4D12B3C36FD00D913CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2PAPBBTST;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DevKDucK.BLEAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLEAPP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BLEAPP";
+			};
+			name = Release;
+		};
+		8C8BD4D32B3C36FD00D913CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2PAPBBTST;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DevKDucK.BLEAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BLEAPP;
+			};
+			name = Debug;
+		};
+		8C8BD4D42B3C36FD00D913CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2PAPBBTST;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DevKDucK.BLEAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BLEAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C8BD49A2B3C36F800D913CF /* Build configuration list for PBXProject "BLEAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8BD4CA2B3C36FD00D913CF /* Debug */,
+				8C8BD4CB2B3C36FD00D913CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8BD4CC2B3C36FD00D913CF /* Build configuration list for PBXNativeTarget "BLEAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8BD4CD2B3C36FD00D913CF /* Debug */,
+				8C8BD4CE2B3C36FD00D913CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8BD4CF2B3C36FD00D913CF /* Build configuration list for PBXNativeTarget "BLEAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8BD4D02B3C36FD00D913CF /* Debug */,
+				8C8BD4D12B3C36FD00D913CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8BD4D22B3C36FD00D913CF /* Build configuration list for PBXNativeTarget "BLEAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8BD4D32B3C36FD00D913CF /* Debug */,
+				8C8BD4D42B3C36FD00D913CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C8BD4AB2B3C36F800D913CF /* BLEAPP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C8BD4AC2B3C36F800D913CF /* BLEAPP.xcdatamodel */,
+			);
+			currentVersion = 8C8BD4AC2B3C36F800D913CF /* BLEAPP.xcdatamodel */;
+			path = BLEAPP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8C8BD4972B3C36F800D913CF /* Project object */;
+}
