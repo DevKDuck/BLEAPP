@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C52AFB72B3D2F8000FEBEBE /* BluetoothTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C52AFB62B3D2F8000FEBEBE /* BluetoothTableViewCell.swift */; };
 		8C8BD4A32B3C36F800D913CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8BD4A22B3C36F800D913CF /* AppDelegate.swift */; };
 		8C8BD4A52B3C36F800D913CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8BD4A42B3C36F800D913CF /* SceneDelegate.swift */; };
 		8C8BD4A72B3C36F800D913CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8BD4A62B3C36F800D913CF /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 		8C8BD4BD2B3C36FD00D913CF /* BLEAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8BD4BC2B3C36FD00D913CF /* BLEAPPTests.swift */; };
 		8C8BD4C72B3C36FD00D913CF /* BLEAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8BD4C62B3C36FD00D913CF /* BLEAPPUITests.swift */; };
 		8C8BD4C92B3C36FD00D913CF /* BLEAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8BD4C82B3C36FD00D913CF /* BLEAPPUITestsLaunchTests.swift */; };
+		8C8BD4D62B3C383900D913CF /* BluetoothSerial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8BD4D52B3C383900D913CF /* BluetoothSerial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C52AFB62B3D2F8000FEBEBE /* BluetoothTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothTableViewCell.swift; sourceTree = "<group>"; };
 		8C8BD49F2B3C36F800D913CF /* BLEAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8BD4A22B3C36F800D913CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C8BD4A42B3C36F800D913CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		8C8BD4C22B3C36FD00D913CF /* BLEAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8BD4C62B3C36FD00D913CF /* BLEAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEAPPUITests.swift; sourceTree = "<group>"; };
 		8C8BD4C82B3C36FD00D913CF /* BLEAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C8BD4D52B3C383900D913CF /* BluetoothSerial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothSerial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +108,13 @@
 				8C8BD4A22B3C36F800D913CF /* AppDelegate.swift */,
 				8C8BD4A42B3C36F800D913CF /* SceneDelegate.swift */,
 				8C8BD4A62B3C36F800D913CF /* ViewController.swift */,
+				8C52AFB62B3D2F8000FEBEBE /* BluetoothTableViewCell.swift */,
 				8C8BD4A82B3C36F800D913CF /* Main.storyboard */,
 				8C8BD4AE2B3C36FD00D913CF /* Assets.xcassets */,
 				8C8BD4B02B3C36FD00D913CF /* LaunchScreen.storyboard */,
 				8C8BD4B32B3C36FD00D913CF /* Info.plist */,
 				8C8BD4AB2B3C36F800D913CF /* BLEAPP.xcdatamodeld */,
+				8C8BD4D52B3C383900D913CF /* BluetoothSerial.swift */,
 			);
 			path = BLEAPP;
 			sourceTree = "<group>";
@@ -261,10 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C52AFB72B3D2F8000FEBEBE /* BluetoothTableViewCell.swift in Sources */,
 				8C8BD4A72B3C36F800D913CF /* ViewController.swift in Sources */,
 				8C8BD4A32B3C36F800D913CF /* AppDelegate.swift in Sources */,
 				8C8BD4A52B3C36F800D913CF /* SceneDelegate.swift in Sources */,
 				8C8BD4AD2B3C36F800D913CF /* BLEAPP.xcdatamodeld in Sources */,
+				8C8BD4D62B3C383900D913CF /* BluetoothSerial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,9 +469,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = DevKDucK.BLEAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -489,9 +500,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = DevKDucK.BLEAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
