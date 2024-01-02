@@ -11,41 +11,45 @@ import CoreBluetooth
 class ViewController: UIViewController, BluetoothSerialDelegate{
     
     
+    //MARK: 객체
+    
     var peripheralList: [(peripheral: CBPeripheral, RSSI: Float)] = []
     
+    // peripheral(주변 기기)를 보여줄 테이블 뷰
+    @IBOutlet weak var bluetoothTableView: UITableView!
+    
+    //주변 기기를 확인하는 기능을 키고 끄는 스위치
     @IBAction func switchOnOff(_ sender: UISwitch) {
         if sender.isOn{
             //스위치가 on일 경우 list 초기화
+            //serial의 대리자를 ViewController로 지정
+            //주변 기기 검색시작
             peripheralList = []
             serial.delegate = self
             serial.startScan()
         }
         else{
+            //주변 기기 검색중지
             serial.stopScan()
         }
     }
     
     
     
-    
-    @IBOutlet weak var bluetoothTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.view.backgroundColor = .white
-        
+        setTableView()
+        serial = BluetoothSerial.init()
+    }
+    
+    func setTableView(){
         bluetoothTableView.delegate = self
         bluetoothTableView.dataSource = self
         bluetoothTableView.backgroundColor = .white
-        
-        
-        serial = BluetoothSerial.init()
-        
-        //        centralManager = CBCentralManager(delegate: self, queue: nil)
-        
         bluetoothTableView.register(BluetoothTableViewCell.self, forCellReuseIdentifier: "BluetoothTableViewCell")
     }
-    
     
 }
 
@@ -64,10 +68,7 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        //        tableView.deselectRow(at: <#T##IndexPath#>, animated: <#T##Bool#>)
         serial.stopScan()
-        //        centralManager.connect(peripherals[indexPath.row], options: nil)
-        
         let selectedPeripheral = peripheralList[indexPath.row].peripheral
         serial.connectToPeripheral(selectedPeripheral)
         
